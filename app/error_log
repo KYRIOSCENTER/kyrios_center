@@ -1,0 +1,3 @@
+[18-Oct-2019 21:24:37 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'kyriosce_web'@'localhost' (using password: YES) in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/conexion.php on line 13
+[18-Oct-2019 21:25:45 America/New_York] PHP Notice:  Undefined index: email in /home/kfykkuyu/kyrioscenter.com/sistema/app/ingresar.php on line 7
+[18-Oct-2019 21:25:45 America/New_York] PHP Notice:  Undefined index: pass in /home/kfykkuyu/kyrioscenter.com/sistema/app/ingresar.php on line 8

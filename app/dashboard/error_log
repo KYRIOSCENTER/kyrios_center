@@ -1,0 +1,12 @@
+[18-Oct-2019 21:26:29 America/New_York] PHP Warning:  A non-numeric value encountered in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 32511
+[18-Oct-2019 21:26:29 America/New_York] PHP Warning:  A non-numeric value encountered in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 32511
+[18-Oct-2019 21:26:29 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 1770
+[18-Oct-2019 21:26:29 America/New_York] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 9143
+[05-Mar-2020 11:49:42 America/New_York] PHP Warning:  A non-numeric value encountered in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 32511
+[05-Mar-2020 11:49:42 America/New_York] PHP Warning:  A non-numeric value encountered in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 32511
+[05-Mar-2020 11:49:42 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 1770
+[05-Mar-2020 11:49:42 America/New_York] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/kfykkuyu/kyrioscenter.com/sistema/app/includes/pdf/lib/mpdf.php on line 9143
+[30-Oct-2020 13:20:31 America/New_York] PHP Warning:  A non-numeric value encountered in /home/kfykkuyu/sistema.kyrioscenter.com/app/includes/pdf/lib/mpdf.php on line 32511
+[30-Oct-2020 13:20:31 America/New_York] PHP Warning:  A non-numeric value encountered in /home/kfykkuyu/sistema.kyrioscenter.com/app/includes/pdf/lib/mpdf.php on line 32511
+[30-Oct-2020 13:20:32 America/New_York] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kfykkuyu/sistema.kyrioscenter.com/app/includes/pdf/lib/mpdf.php on line 1770
+[30-Oct-2020 13:20:32 America/New_York] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/kfykkuyu/sistema.kyrioscenter.com/app/includes/pdf/lib/mpdf.php on line 9143

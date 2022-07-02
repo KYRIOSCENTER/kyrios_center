@@ -1,0 +1,9 @@
+#stop directory browsing
+Options All -Indexes
+
+# SSL Https active Force non-www
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteCond %{HTTPS} !=on
+   RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
