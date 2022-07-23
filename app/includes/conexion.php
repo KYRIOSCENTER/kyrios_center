@@ -4,10 +4,10 @@
 	// Ejemplo realizado por Oscar Abad Folgueira: http://www.oscarabadfolgueira.com y https://www.dinapyme.com
 	
 	// Datos de la base de datos
-	$usuario = "kfykkuyu_kyrioscenter";
-	$password = "080618veroA*";
+	$usuario = "root";
+	$password = "";
 	$servidor = "localhost";
-	$basededatos = "kfykkuyu_kyriosDB";
+	$basededatos = "kyriosdb";
 	
 	// creación de la conexión a la base de datos con mysql_connect()
 	$conexion = mysqli_connect( $servidor, $usuario, $password ) or die ("No se ha podido conectar al servidor de Base de datos");

@@ -198,7 +198,7 @@ $sql1="SELECT * FROM ordenes WHERE codigo='$norden'";
 $sql2=mysqli_query($conexion, $sql1);
 $rows=mysqli_fetch_array($sql2);
 
-$mpdf = new mPDF('A4');
+$mpdf = new mPDF('letter');
 $PDFContent = '
 <html>
 					<head>
