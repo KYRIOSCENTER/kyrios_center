@@ -104,7 +104,7 @@ $PDFContent = '
 								<td class="otra" colspan="2">
 									<b>Cliente: </b>'.$rows["nomcliente"].'
 								</td>
-								<td class="otra" colspan="2">
+								<td class="otra" colspan="1">
 									<b>Celular: </b>'.$rows["celcliente"].'
 								</td>
 							  </tr>
@@ -118,10 +118,25 @@ $PDFContent = '
 								<td class="otra">
 									<b>Modelo: </b>'.$rows["modelo"].'
 								</td>
+								
+							  </tr>
+							  
+						</table>
+						<table class="otra" style="margin-top: -4px;">
+							<tr class="otra">
 								<td class="otra">
 									<b>Serial: </b>'.$rows["serial"].'
 								</td>
-							  </tr>
+								<td class="otra">
+									<b>Cargador: </b>'.$rows["cargador"].'
+								</td>
+								<td class="otra">
+									<b>Bateria: </b>'.$rows["bateria"].'
+								</td>
+								<td class="otra">
+									<b>Otros: </b>'.$rows["otros"].'
+								</td>
+							</tr>
 						</table>
 						<table class="notas">
 							  <tr class="notas">
@@ -287,7 +302,7 @@ $PDFContent = '
 								<td class="otra" colspan="2">
 									<b>Cliente: </b>'.$rows["nomcliente"].'
 								</td>
-								<td class="otra" colspan="2">
+								<td class="otra" colspan="1">
 									<b>Celular: </b>'.$rows["celcliente"].'
 								</td>
 							  </tr>
@@ -301,11 +316,26 @@ $PDFContent = '
 								<td class="otra">
 									<b>Modelo: </b>'.$rows["modelo"].'
 								</td>
+							  </tr>
+							  
+						</table>
+						<table class="otra" style="margin-top: -4px;">
+							<tr class="otra">
 								<td class="otra">
 									<b>Serial: </b>'.$rows["serial"].'
 								</td>
-							  </tr>
+								<td class="otra">
+									<b>Cargador: </b>'.$rows["cargador"].'
+								</td>
+								<td class="otra">
+									<b>Bateria: </b>'.$rows["bateria"].'
+								</td>
+								<td class="otra">
+									<b>Otros: </b>'.$rows["otros"].'
+								</td>
+							</tr>
 						</table>
+						
 						<table class="notas">
 							  <tr class="notas">
 								<td align="center" class="notas">

@@ -103,15 +103,15 @@ echo '
 									<label>Celular del Cliente</label>
 									<input type="text" name="celcliente" class="form-control" value="'.$fila[4].'" maxlength="10" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
 								  </div>
-								  <div class="form-group col-sm-3">
+								  <div class="form-group col-sm-4">
 									<label>Equipo</label>
 									<input type="text" name="equipo" class="form-control" required value="'.$fila[5].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
 								  </div>
-								  <div class="form-group col-sm-3">
+								  <div class="form-group col-sm-4">
 									<label>Marca</label>
 									<input type="text" name="marca" class="form-control" required value="'.$fila[6].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
 								  </div>
-								  <div class="form-group col-sm-3">
+								  <div class="form-group col-sm-4">
 									<label>Modelo</label>
 									<input type="text" name="modelo" class="form-control" required value="'.$fila[7].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
 								  </div>
@@ -119,13 +119,25 @@ echo '
 									<label>Serial</label>
 									<input type="text" name="serial" class="form-control" required value="'.$fila[8].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
 								  </div>
+								  <div class="form-group col-sm-3">
+									<label>Cargador</label>
+									<input type="text" name="cargador" class="form-control" required value="'.$fila[9].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
+								  </div>
+								  <div class="form-group col-sm-3">
+									<label>Bateria</label>
+									<input type="text" name="bateria" class="form-control" required value="'.$fila[10].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
+								  </div>
+								  <div class="form-group col-sm-3">
+									<label>Otros</label>
+									<input type="text" name="otros" class="form-control" required value="'.$fila[11].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>
+								  </div>
 								  <div class="form-group col-sm-6">
 									<label>Falla Reportada</label>
-									<textarea name="falla" class="form-control" rows="3" maxlength="230" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>'.$fila[9].'</textarea>
+									<textarea name="falla" class="form-control" rows="3" maxlength="230" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>'.$fila[12].'</textarea>
 								  </div>
 								  <div class="form-group col-sm-6">
 									<label>Observaciones</label>
-									<textarea name="observaciones" class="form-control" maxlength="230"  rows="3" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>'.$fila[10].'</textarea>
+									<textarea name="observaciones" class="form-control" maxlength="230"  rows="3" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" readonly>'.$fila[13].'</textarea>
 								  </div>
 								  <div class="form-group col-sm-10">
 									<label>Informe Técnico</label>
@@ -133,7 +145,7 @@ echo '
 								  </div>
 								  <div class="form-group col-sm-2">
 									<label>Valor Negociado</label>
-									<Input name="valor" type="text" class="form-control" maxlength="20" value="'.$fila[12].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" required>
+									<Input name="valor" type="text" class="form-control" maxlength="20" value="'.$fila[15].'" style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();" required>
 								  </div>
 								  <div class="form-group col-sm-2">
 									<input type="hidden" name="estado" value="ENTREGADO">

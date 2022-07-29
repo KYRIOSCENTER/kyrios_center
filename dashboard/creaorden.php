@@ -26,12 +26,15 @@ if(isset($_POST["nombre"])){
   $marca= $_POST["marca"];
   $modelo= $_POST["modelo"];
   $serial= $_POST["serial"];
+  $cargador= $_POST["cargador"];
+  $bateria= $_POST["bateria"];
+  $otros= $_POST["otros"];
   $falla= $_POST["falla"];
   $observaciones= $_POST["observaciones"];
   $estado="PENDIENTE";
   $valor= $_POST["valor"];
    
-  $insertar="INSERT INTO ordenes (fecha, tecnico, nomcliente, celcliente, equipo, marca, modelo, serial, notacliente, observaciones, valor, estado,horainicio) VALUES ('$fechasys', '$nombre', '$cliente', '$cel', '$equipo', '$marca', '$modelo', '$serial', '$falla', '$observaciones', '$valor', '$estado', '$hora')";
+  $insertar="INSERT INTO ordenes (fecha, tecnico, nomcliente, celcliente, equipo, marca, modelo, serial, cargador, bateria, otros, notacliente, observaciones, valor, estado,horainicio) VALUES ('$fechasys', '$nombre', '$cliente', '$cel', '$equipo', '$marca', '$modelo', '$serial', '$cargador', '$bateria', '$otros', '$falla', '$observaciones', '$valor', '$estado', '$hora')";
   mysqli_query($conexion,$insertar);
   mysqli_close( $conexion );
 }
@@ -269,21 +272,33 @@ echo '
 								<label>Celular del Cliente</label>
 								<input type="text" name="celcliente" class="form-control" maxlength="30" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
-							  <div class="form-group col-sm-3">
+							  <div class="form-group col-sm-4">
 								<label>Equipo</label>
 								<input type="text" name="equipo" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
-							  <div class="form-group col-sm-3">
+							  <div class="form-group col-sm-4">
 								<label>Marca</label>
 								<input type="text" name="marca" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
-							  <div class="form-group col-sm-3">
+							  <div class="form-group col-sm-4">
 								<label>Modelo</label>
 								<input type="text" name="modelo" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
 							  <div class="form-group col-sm-3">
 								<label>Serial</label>
 								<input type="text" name="serial" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+							  </div>
+                <div class="form-group col-sm-3">
+								<label>Cargador</label>
+								<input type="text" name="cargador" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+							  </div>
+                <div class="form-group col-sm-3">
+								<label>Bateria</label>
+								<input type="text" name="bateria" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+							  </div>
+                <div class="form-group col-sm-3">
+								<label>Otros</label>
+								<input type="text" name="otros" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
 							  <div class="form-group col-sm-12">
 								<label>Falla Reportada</label>

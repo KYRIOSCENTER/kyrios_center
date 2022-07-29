@@ -20,11 +20,16 @@ if(isset($_POST["nombre"])){
   $marca= $_POST["marca"];
   $modelo= $_POST["modelo"];
   $serial= $_POST["serial"];
+  $cargador= $_POST["cargador"];
+  $bateria= $_POST["bateria"];
+  $otros= $_POST["otros"];
+
+
   $falla= $_POST["falla"];
   $observaciones= $_POST["observaciones"];
   $valor= $_POST["valor"];
    
-  $insertar="INSERT INTO ordenes (fecha, tecnico, nomcliente, celcliente, equipo, marca, modelo, serial, notacliente, observaciones, valor) VALUES ('$fechasys', '$nombre', '$cliente', '$cel', '$equipo', '$marca', '$modelo', '$serial', '$falla', '$observaciones', '$valor')";
+  $insertar="INSERT INTO ordenes (fecha, tecnico, nomcliente, celcliente, equipo, marca, modelo, serial, cargardor, bateria, otros, notacliente, observaciones, valor) VALUES ('$fechasys', '$nombre', '$cliente', '$cel', '$equipo', '$marca', '$modelo', '$serial', '$cargado', '$bateria', '$otros', '$falla', '$observaciones', '$valor')";
   mysqli_query($conexion,$insertar);
 }
 else

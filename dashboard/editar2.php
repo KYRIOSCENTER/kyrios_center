@@ -13,6 +13,9 @@ if(isset($_POST["nombre"])){
   $marca= $_POST["marca"];
   $modelo= $_POST["modelo"];
   $serial= $_POST["serial"];
+  $cargador= $_POST["cargador"];
+  $bateria= $_POST["bateria"];
+  $otros= $_POST["otros"];
   $falla= $_POST["falla"];
   $observaciones= $_POST["observaciones"];
   $informetecnico= $_POST["notatecnico"];
@@ -20,7 +23,7 @@ if(isset($_POST["nombre"])){
   $ordenestado= $_POST["ordenestado"];
   $fechafin= $_POST["fechafin"];
   
-  $sql8= "UPDATE ordenes SET fecha='$fechaini', nomcliente='$cliente', celcliente='$cel', equipo='$equipo', marca='$marca', modelo='$modelo', serial='$serial', notacliente='$falla', observaciones='$observaciones', notatecnico='$informetecnico', valor='$valor', estado='$ordenestado', fechafin='$fechafin' WHERE codigo='$codigo'";
+  $sql8= "UPDATE ordenes SET fecha='$fechaini', nomcliente='$cliente', celcliente='$cel', equipo='$equipo', marca='$marca', modelo='$modelo', serial='$serial', cargador='$cargador', bateria='$bateria', otros='$otros', notacliente='$falla', observaciones='$observaciones', notatecnico='$informetecnico', valor='$valor', estado='$ordenestado', fechafin='$fechafin' WHERE codigo='$codigo'";
   $sql9=mysqli_query($conexion, $sql8);
 
   

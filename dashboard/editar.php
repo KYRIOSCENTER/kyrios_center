@@ -261,21 +261,33 @@ window.onload = function () {
 								<label>Celular del Cliente</label>
 								<input type="text" name="celcliente" value="'.$rows2["celcliente"].'" class="form-control" maxlength="30" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
-							  <div class="form-group col-sm-3">
+							  <div class="form-group col-sm-4">
 								<label>Equipo</label>
 								<input type="text" name="equipo" value="'.$rows2["equipo"].'" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
-							  <div class="form-group col-sm-3">
+							  <div class="form-group col-sm-4">
 								<label>Marca</label>
 								<input type="text" name="marca" value="'.$rows2["marca"].'" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
-							  <div class="form-group col-sm-3">
+							  <div class="form-group col-sm-4">
 								<label>Modelo</label>
 								<input type="text" name="modelo" value="'.$rows2["modelo"].'" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
 							  <div class="form-group col-sm-3">
 								<label>Serial</label>
 								<input type="text" name="serial" value="'.$rows2["serial"].'" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+							  </div>
+                <div class="form-group col-sm-3">
+								<label>Cargador</label>
+								<input type="text" name="cargador" value="'.$rows2["cargador"].'" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+							  </div>
+                <div class="form-group col-sm-3">
+								<label>Bateria</label>
+								<input type="text" name="bateria" value="'.$rows2["bateria"].'" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
+							  </div>
+                <div class="form-group col-sm-3">
+								<label>Otros</label>
+								<input type="text" name="otros" value="'.$rows2["otros"].'" class="form-control" required style="text-transform:uppercase;" onkeyup="javascript:this.value=this.value.toUpperCase();">
 							  </div>
 							  <div class="form-group col-sm-12">
 								<label>Falla Reportada</label>
