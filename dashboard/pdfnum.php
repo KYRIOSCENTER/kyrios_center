@@ -138,26 +138,20 @@ $PDFContent = '
 								</td>
 							</tr>
 						</table>
-						<table class="notas">
+						<table class="otra" style="margin-top: -2px;">
 							  <tr class="notas">
-								<td align="center" class="notas">
+								<td align="center" class="otra">
 									<b>Falla Reportada</b>
 								</td>
-							  </tr>
-							  <tr class="notas">
-								<td class="notas" height="65px;" valign="top" align="justify">
-									'.$rows["notacliente"].'
-								</td>
-							  </tr>
-						</table>
-						<table class="notas" style="margin-top: 5px;">
-							  <tr class="notas">
-								<td align="center" class="notas">
+								<td align="center" class="otra">
 									<b>Observaciones</b>
 								</td>
 							  </tr>
 							  <tr class="notas">
-								<td class="notas" height="65px;" valign="top" align="justify">
+								<td class="otra" height="65px;" valign="top" align="justify">
+									'.$rows["notacliente"].'
+								</td>
+								<td class="otra" height="65px;" valign="top" align="justify">
 									'.$rows["observaciones"].'
 								</td>
 							  </tr>
