@@ -179,7 +179,7 @@ if (tecla = 116) {return false;}
 							';
 							 while ($fila = mysqli_fetch_row($sql2)) {
 								 
-							if ($fila[13]=="ENTREGADO"){
+							if ($fila[16]=="ENTREGADO"){
 								echo'
 								 <tr>
 									<td>'.$fila[0].'</td>
@@ -189,7 +189,7 @@ if (tecla = 116) {return false;}
 									<td>'.$fila[6].'</td>
 									<td>'.$fila[7].'</td>
 									<td>'.$fila[2].'</td>
-									<td>'.$fila[12].'</td>
+									<td>'.$fila[15].'</td>
 									<td>
 										<form role="search" class="app-search hidden-sm hidden-xs m-r-10" target="_blank" method="post" action="pdfnum.php">
 											<input type="hidden" value="finorden" name="finorden">
@@ -200,7 +200,7 @@ if (tecla = 116) {return false;}
 								</tr>
 								'; 
 							}
-							else if ($fila[13]=="EN BODEGA"){
+							else if ($fila[16]=="EN BODEGA"){
 								echo'
 								 <tr>
 									<td>'.$fila[0].'</td>
@@ -210,7 +210,7 @@ if (tecla = 116) {return false;}
 									<td>'.$fila[6].'</td>
 									<td>'.$fila[7].'</td>
 									<td>'.$fila[2].'</td>
-									<td>'.$fila[12].'</td>
+									<td>'.$fila[15].'</td>
 									<td>
 										<form role="search" class="app-search hidden-sm hidden-xs m-r-10" target="_blank" method="post" action="pdfnum.php">
 											<input type="hidden" value="finorden" name="finorden">
@@ -231,7 +231,7 @@ if (tecla = 116) {return false;}
 									<td>'.$fila[6].'</td>
 									<td>'.$fila[7].'</td>
 									<td>'.$fila[2].'</td>
-									<td>'.$fila[12].'</td>
+									<td>'.$fila[15].'</td>
 									<td>
 										<form role="search" class="app-search hidden-sm hidden-xs m-r-10" target="_blank" method="post" action="pdfnum.php">
 											<input type="hidden" name="n" value="'.$fila[0].'">
@@ -495,7 +495,7 @@ window.onload = function () {
 							';
 							 while ($fila = mysqli_fetch_row($sql2)) {
 								 
-							if ($fila[13]=="ENTREGADO"){
+							if ($fila[16]=="ENTREGADO"){
 								echo'
 								 <tr>
 									<td>'.$fila[0].'</td>
@@ -505,7 +505,7 @@ window.onload = function () {
 									<td>'.$fila[6].'</td>
 									<td>'.$fila[7].'</td>
 									<td>'.$fila[2].'</td>
-									<td>'.$fila[12].'</td>
+									<td>'.$fila[15].'</td>
 									<td>
 										<form role="search" class="app-search hidden-sm hidden-xs m-r-10" target="_blank" method="post" action="pdfnum.php">
 											<input type="hidden" value="finorden" name="finorden">
@@ -516,7 +516,7 @@ window.onload = function () {
 								</tr>
 								'; 
 							}
-							else if ($fila[13]=="EN BODEGA"){
+							else if ($fila[16]=="EN BODEGA"){
 								echo'
 								 <tr>
 									<td>'.$fila[0].'</td>
@@ -526,7 +526,7 @@ window.onload = function () {
 									<td>'.$fila[6].'</td>
 									<td>'.$fila[7].'</td>
 									<td>'.$fila[2].'</td>
-									<td>'.$fila[12].'</td>
+									<td>'.$fila[15].'</td>
 									<td>
 										<form role="search" class="app-search hidden-sm hidden-xs m-r-10" target="_blank" method="post" action="pdfnum.php">
 											<input type="hidden" name="n" value="'.$fila[0].'">
@@ -546,7 +546,7 @@ window.onload = function () {
 									<td>'.$fila[6].'</td>
 									<td>'.$fila[7].'</td>
 									<td>'.$fila[2].'</td>
-									<td>'.$fila[12].'</td>
+									<td>'.$fila[15].'</td>
 									<td>
 										<form role="search" class="app-search hidden-sm hidden-xs m-r-10" target="_blank" method="post" action="pdfnum.php">
 											<input type="hidden" name="n" value="'.$fila[0].'">
